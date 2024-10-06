@@ -1,0 +1,105 @@
+
+    body {
+        background-image: url(/anhnen.jpg);
+    }
+    .link-container {
+        text-align: center;
+        margin: 0; /* Xóa khoảng cách mặc định */
+    }
+    
+    .link-container a {
+        text-align: center;
+        margin: 130px; /* Thay đổi khoảng cách giữa các liên kết */
+        text-decoration: none; /* Xóa gạch chân mặc định */
+        color: yellow; /* Thay đổi màu chữ nếu cần */
+        font-weight: bold; /* Thay đổi kiểu chữ nếu cần */
+    }
+    .link-container a:hover {
+        color: pink; /* Màu chữ khi di chuột qua */
+        /*text-decoration: underline; /* Thêm gạch chân khi di chuột qua */
+    } 
+    h4 {
+        background-color: rgb(159, 159, 209);
+    } 
+    .round-image {
+        width: 150px; /* Kích thước chiều rộng của ảnh */
+        height: 150px; /* Kích thước chiều cao của ảnh */
+        border-radius: 50%; /* Tạo hình dạng tròn */
+        object-fit: cover; /* Cắt ảnh đúng tỷ lệ */
+        border: 2px solid #f06c6c; /* Thêm viền nếu cần */
+    }
+    .link-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 3px solid rgb(107, 107, 226);
+    }
+    .QL-QL{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 3px solid rgb(107, 107, 226); 
+    }
+        .myDiv{
+            text-align: center;
+        }
+        .bt{
+         background-color: red;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         font-size: 16px;
+         cursor: pointer;
+         margin-bottom: 10px; /* Khoảng cách giữa button và link */   
+        }
+    .link {
+        background-color: yellow;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .link:hover {
+        text-decoration: underline; /* Hiệu ứng khi di chuột qua link */
+    }
+    .youDiv {
+        border: 10px double black; /* Đường viền 10px, kiểu solid, màu đỏ */
+        padding: 20px; /* Khoảng cách bên trong khung */
+        margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    }
+    .okeDiv img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover; /*cắt ảnh đúng tỉ lệ */
+        display: flex;
+        flex-wrap: wrap; /* Cho phép ảnh xuống hàng khi không đủ không gian */
+        gap: 10px; /* Khoảng cách giữa các ảnh */
+        justify-content: center; /* Căn giữa các ảnh */
+        padding: 10px; /* Khoảng cách bên trong div */
+    }
+    .okeDiv .text-list {
+        text-align: left;
+    }
+    .facebook-logo {
+        width: 90px; /* Chiều rộng của logo */
+        height: 90px; /* Chiều cao của logo */
+        background-color: #1877f2; /* Màu nền xanh của Facebook */
+        border-radius: 50%; /* Tạo hình tròn */
+        display: flex; /* Sử dụng Flexbox để căn giữa chữ */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        font-size: 50px; /* Kích thước chữ */
+        color: #ffffff; /* Màu chữ trắng */
+        font-family: Arial, sans-serif; /* Font chữ */
+        font-weight: bold; /* Chữ đậm */
+        text-align: center; /* Căn giữa chữ */
+    }
+    
+    /* Định dạng cho chữ "F" */
+    .facebook-icon {
+        /* Không cần thêm CSS cho .facebook-icon vì đã được căn chỉnh trong .facebook-logo */
+    }
+
+
+
+
